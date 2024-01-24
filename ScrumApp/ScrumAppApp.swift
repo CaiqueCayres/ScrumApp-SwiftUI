@@ -10,6 +10,7 @@ import SwiftData
 
 @main
 struct ScrumAppApp: App {
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -24,8 +25,9 @@ struct ScrumAppApp: App {
     }()
 
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
+            ScrumsView(scrums: DailyScrum.sampleData)
         }
         .modelContainer(sharedModelContainer)
     }
