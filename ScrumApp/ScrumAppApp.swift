@@ -23,11 +23,13 @@ struct ScrumAppApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
+    
+    @State private var scrums = DailyScrum.sampleData
 
     var body: some Scene {
         
         WindowGroup {
-            ScrumsView(scrums: DailyScrum.sampleData)
+            ScrumsView(scrums: $scrums)
         }
         .modelContainer(sharedModelContainer)
     }
