@@ -32,6 +32,7 @@
 		6348C6D42B6212D9002A10BA /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6348C6D32B6212D9002A10BA /* ding.wav */; };
 		6348C6D62B6216FC002A10BA /* NewScrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348C6D52B6216FC002A10BA /* NewScrumView.swift */; };
 		6348C6D82B621A84002A10BA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348C6D72B621A84002A10BA /* History.swift */; };
+		6348C6DA2B6225EC002A10BA /* ScrumStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348C6D92B6225EC002A10BA /* ScrumStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		6348C6D32B6212D9002A10BA /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		6348C6D52B6216FC002A10BA /* NewScrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumView.swift; sourceTree = "<group>"; };
 		6348C6D72B621A84002A10BA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		6348C6D92B6225EC002A10BA /* ScrumStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				6348C6CC2B620852002A10BA /* ScrumTimer.swift */,
 				6348C6D02B621124002A10BA /* AVPlayer+Ding.swift */,
 				6348C6D72B621A84002A10BA /* History.swift */,
+				6348C6D92B6225EC002A10BA /* ScrumStorage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				630403932B60BFDF00948EBA /* MeetingView.swift in Sources */,
 				6348C6D12B621124002A10BA /* AVPlayer+Ding.swift in Sources */,
 				6348C6CF2B620997002A10BA /* MeetingFooterView.swift in Sources */,
+				6348C6DA2B6225EC002A10BA /* ScrumStorage.swift in Sources */,
 				630403BE2B60C3BC00948EBA /* Theme.swift in Sources */,
 				630403C62B60C81B00948EBA /* ScrumsView.swift in Sources */,
 				6348C6C92B62062E002A10BA /* MeetingHeaderView.swift in Sources */,
