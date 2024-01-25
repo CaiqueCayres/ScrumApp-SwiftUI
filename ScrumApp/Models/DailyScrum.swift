@@ -15,6 +15,8 @@ struct DailyScrum: Identifiable {
     var attendees: [Attendee]
     var lengthInMinutes: Int
     
+    var history: [History] = []
+    
     var lengthInMinutesAsDouble: Double {
         get {
             Double(lengthInMinutes)
