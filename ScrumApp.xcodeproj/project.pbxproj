@@ -136,25 +136,14 @@
 		6304038F2B60BFDF00948EBA /* ScrumApp */ = {
 			isa = PBXGroup;
 			children = (
+				63353FCA2B63617B00F3E414 /* Views */,
 				6348C6D22B6212B6002A10BA /* Resources */,
 				630403BC2B60C38E00948EBA /* Models */,
 				630403902B60BFDF00948EBA /* ScrumAppApp.swift */,
-				630403C52B60C81B00948EBA /* ScrumsView.swift */,
-				630403C72B60CD2900948EBA /* DetailView.swift */,
-				630403922B60BFDF00948EBA /* MeetingView.swift */,
-				630403C12B60C44100948EBA /* CardView.swift */,
 				630403C32B60C6C400948EBA /* TrailingIconLabelStyle.swift */,
-				630403942B60BFDF00948EBA /* Item.swift */,
 				630403962B60BFE200948EBA /* Assets.xcassets */,
 				630403982B60BFE200948EBA /* Preview Content */,
-				630403C92B60D96200948EBA /* DetailEditView.swift */,
-				630403CB2B60E05000948EBA /* ThemeView.swift */,
-				630403CD2B60E10E00948EBA /* ThemePicker.swift */,
-				6348C6C82B62062E002A10BA /* MeetingHeaderView.swift */,
 				6348C6CA2B6207AE002A10BA /* ScrumProgressViewStyle.swift */,
-				6348C6CE2B620997002A10BA /* MeetingFooterView.swift */,
-				6348C6D52B6216FC002A10BA /* NewScrumView.swift */,
-				63353FC82B634B8700F3E414 /* ErrorView.swift */,
 			);
 			path = ScrumApp;
 			sourceTree = "<group>";
@@ -187,6 +176,7 @@
 		630403BC2B60C38E00948EBA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				630403942B60BFDF00948EBA /* Item.swift */,
 				630403BD2B60C3BC00948EBA /* Theme.swift */,
 				630403BF2B60C40000948EBA /* DailyScrum.swift */,
 				6348C6CC2B620852002A10BA /* ScrumTimer.swift */,
@@ -196,6 +186,24 @@
 				63353FC62B634B4500F3E414 /* ErrorWrapper.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		63353FCA2B63617B00F3E414 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				630403CD2B60E10E00948EBA /* ThemePicker.swift */,
+				630403C52B60C81B00948EBA /* ScrumsView.swift */,
+				630403C72B60CD2900948EBA /* DetailView.swift */,
+				630403922B60BFDF00948EBA /* MeetingView.swift */,
+				630403C12B60C44100948EBA /* CardView.swift */,
+				630403C92B60D96200948EBA /* DetailEditView.swift */,
+				630403CB2B60E05000948EBA /* ThemeView.swift */,
+				6348C6C82B62062E002A10BA /* MeetingHeaderView.swift */,
+				6348C6CE2B620997002A10BA /* MeetingFooterView.swift */,
+				6348C6D52B6216FC002A10BA /* NewScrumView.swift */,
+				63353FC82B634B8700F3E414 /* ErrorView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		6348C6D22B6212B6002A10BA /* Resources */ = {
